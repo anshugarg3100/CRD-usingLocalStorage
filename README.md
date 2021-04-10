@@ -2,5 +2,5 @@
 
 After cloning , run the below commands:
 
-npm install
-nodemon start
+1. npm install
+2. nodemon start
