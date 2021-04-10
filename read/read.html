@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    
+<script src="./read/read.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+
+      table , td , tr{
+          border: 1px solid black;
+      margin-left:auto;
+      margin-right:auto;
+      padding:15px;
+          
+      }
+  </style>
+</head>
+<body>
+
+<div class="container">
+    <br><br>
+<button  class="btn btn-primary" onclick="keyRoute()" >Click here to Create data</button>
+<br>
+<br>
+      <label for="key">Key</label>
+      <input type="text" class="form-control" id="key1" placeholder="Enter any key to be searched"><br>
+  <button type="button" class="btn btn-success" onclick="readFile()">Get Item</button>
+  <button type="button" class="btn btn-danger" onclick="del()">Delete Item</button>
+</div>
+<br>
+<table id="data">
+    <tr>
+        <td >Key/Name</td>
+        <td>Age</td>
+        <td>Description</td>
+
+    </tr>
+   
+
+</table>
+
+</body>
+</html>
